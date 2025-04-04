@@ -1,4 +1,4 @@
-/*
+sssss/*
 @File: Xton Template Styles
 
 * This file contains the styling for the actual template, this
@@ -65,7 +65,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.bx-shop{
+	color:#e4c19d;
+}
+.burger-menu{
+	color:#e4c19d;
+}
 .d-table {
   width: 100%;
   height: 100%;
@@ -584,7 +589,7 @@ Navbar CSS
 }
 
 .xton-nav {
-  background-color: #ffffff;
+  background-color: #1A2E35;
 }
 .xton-nav .container-fluid {
   padding-left: 40px;
@@ -616,7 +621,7 @@ Navbar CSS
   position: relative;
 }
 .xton-nav .navbar .navbar-nav .nav-item a {
-  color: #000000;
+  color: #e4c19d;
   font-size: 16.5px;
   font-weight: 600;
   padding-left: 0;
@@ -635,7 +640,7 @@ Navbar CSS
   margin-right: -3px;
 }
 .xton-nav .navbar .navbar-nav .nav-item a:hover, .xton-nav .navbar .navbar-nav .nav-item a:focus, .xton-nav .navbar .navbar-nav .nav-item a.active {
-  color: #f53f85;
+  color: #ffffff;
 }
 .xton-nav .navbar .navbar-nav .nav-item:last-child a {
   margin-right: 0;
@@ -644,7 +649,7 @@ Navbar CSS
   margin-left: 0;
 }
 .xton-nav .navbar .navbar-nav .nav-item:hover a, .xton-nav .navbar .navbar-nav .nav-item.active a {
-  color: #f53f85;
+  color: #ffffff;
 }
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -936,7 +941,7 @@ Navbar CSS
 .xton-nav .navbar .others-option .option-item .search-btn-box .search-btn {
   font-size: 25px;
   cursor: pointer;
-  color: #000000;
+  color: #e4c19d;
   transition: 0.5s;
 }
 .xton-nav .navbar .others-option .option-item .cart-btn {
@@ -1310,7 +1315,7 @@ Search Overlay CSS
 Main Banner CSS
 =================================================*/
 .main-banner {
-  height: 800px;
+  height: 1000px;
   position: relative;
   z-index: 1;
   background-position: top center;
@@ -1319,7 +1324,7 @@ Main Banner CSS
 }
 
 .banner-bg1 {
-  background-image: url(C:\Users\asus\Documents);
+  background-image: url("../img/Group 9.png");
 }
 
 .banner-bg2 {
@@ -2053,9 +2058,11 @@ Products CSS
   margin-bottom: 30px;
 }
 .single-products-box .products-image {
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: Lato;
 }
 .single-products-box .products-image a {
   position: relative;
